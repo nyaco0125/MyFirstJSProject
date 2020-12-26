@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    background-image: url(snow-4682266_1920.jpg);
+    transition: 0.5s;
+}
+
+.js-clock,.js-form,.name{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    color: white;
+}
+.clock-title{
+    margin: 0;
+    font-size: 100px;
+}
+
+.js-clock{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.name{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+input{
+    width: 400px;
+    height: 40px;
+    text-align: center;
+    border-radius: 30px;
+    outline: none;
+    border-color: grey;
+}
+
+.select-image{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    padding: 0%;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    
+}
+
+.select-image a{
+    text-decoration: none;
+    color: white;
+    font-weight: 900;
+    margin: 8px 12px;
+    padding: 8px 12px;
+    font-size: 20px;
+}
+
+.select-image li :hover{
+    background-color: rgb(209, 206, 206);
+    border-radius: 30px;
+}
