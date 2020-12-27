@@ -3,21 +3,21 @@ const numberOne = document.querySelector('.one'),numberTwo = document.querySelec
 
 
 function selectImageOne(){
-    body.style.backgroundImage = "url('snow-4682266_1920.jpg')";
+    body.style.backgroundImage = "url('assets/snow-4682266_1920.jpg')";
 }
 
 function addClickEventOne(){
     numberOne.addEventListener('click', selectImageOne)
 }
 function selectImageTwo(){
-    body.style.backgroundImage = "url('winter-3267925_1920.jpg')";
+    body.style.backgroundImage = "url('assets/winter-3267925_1920.jpg')";
 }
 
 function addClickEventTwo(){
     numberTwo.addEventListener('click', selectImageTwo)
 }
 function selectImageThree(){
-    body.style.backgroundImage = "url('fallow-deer-4743238_1920.jpg')";
+    body.style.backgroundImage = "url('assets/fallow-deer-4743238_1920.jpg')";
 }
 
 function addClickEventThree(){
